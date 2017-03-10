@@ -1,0 +1,33 @@
+{
+  "name": "angular2-simpleexample",
+  "version": "1.0.0",
+  "description": "Simple example of an app created using Angular2",
+  "scripts": {
+    "build": "tsc -p src/ | node ./node_modules/webpack/bin/webpack.js",
+    "serve": "lite-server -c=bs-config.json",
+    "prestart": "npm run build",
+    "start": "npm run build | npm run serve"
+  },
+  "keywords": [
+    "angular2"
+  ],
+  "author": "Samuel Hutama",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.4.9",
+    "@angular/compiler": "^2.4.9",
+    "@angular/core": "^2.4.9",
+    "@angular/platform-browser": "^2.4.9",
+    "@angular/platform-browser-dynamic": "^2.4.9",
+    "rxjs": "^5.2.0",
+    "zone.js": "^0.7.8",
+    "core-js": "^2.4.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "typescript-compiler": "^1.4.1-2",
+    "webpack": "^2.2.1"
+  }
+}
