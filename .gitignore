@@ -3,4 +3,3 @@ npm-debug.log
 *.js
 *.js.map
 !webpack.config.js
-!bundle.js

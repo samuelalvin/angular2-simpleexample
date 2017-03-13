@@ -1,13 +1,6 @@
 module.exports = {
     entry: "./src/main.ts",
 
-    node: {
-        fs: "empty",
-        net: "empty",
-        tls: "empty",
-        yamlparser: "empty"
-    },
-
     output: {
         filename: "bundle.js",
         path: __dirname + "/src",
