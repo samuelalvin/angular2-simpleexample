@@ -9,6 +9,15 @@
         </tr>
     </thead>
     <tbody>
+        <tr *ngFor="let user of userList">
+            <td [innerHTML]="user.id"></td>
+            <td [innerHTML]="user.name"></td>
+            <td [innerHTML]="user.age"></td>
+            <td>
+                <button>Save</button>
+                <button>Cancel</button>
+            </td>
+        </tr>
         <tr>
             <td>
                 <input name="id" type="number" />
