@@ -5,7 +5,6 @@
             <th>Id</th>
             <th>Name</th>
             <th>Age</th>
-            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -13,24 +12,6 @@
             <td [innerHTML]="user.id"></td>
             <td [innerHTML]="user.name"></td>
             <td [innerHTML]="user.age"></td>
-            <td>
-                <button>Save</button>
-                <button>Cancel</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input name="id" type="number" />
-            </td>
-            <td>
-                <input name="name" type="text" />
-            </td>
-            <td>
-                <input name="age" type="number" />
-            </td>
-            <td>
-                <button>Add a User</button>
-            </td>
         </tr>
     </tbody>
 </table>
